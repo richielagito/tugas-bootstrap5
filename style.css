@@ -1,0 +1,379 @@
+/* Font Style */
+.georgia-bold {
+  font-family: "Georgia", serif;
+  font-weight: bold;
+}
+.georgia {
+  font-family: "Georgia", serif;
+}
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.font-arial {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+.libre-caslon-text-regular {
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.libre-caslon-text-bold {
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.libre-caslon-text-regular-italic {
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.libre-caslon-display-regular {
+  font-family: "Libre Caslon Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar-scrolled {
+  background-color: #fff !important;
+  transition: 0.2s ease;
+}
+
+.hero-section {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+#heroCarousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-inner,
+.carousel-item {
+  height: 100%;
+}
+
+.header-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.carousel-fade .carousel-item.active {
+  opacity: 1;
+}
+
+/* color */
+.text-white {
+  color: #fff;
+}
+
+/* Navbar Section Style */
+nav.navbar {
+  background-color: transparent;
+  color: #fff !important;
+  height: 10vh;
+  transition: 0.3s ease;
+}
+
+/* Head Section Style */
+.header-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.header-text {
+  font-size: 4rem;
+}
+.header-text-small {
+  font-size: 0.9rem;
+}
+.hero-section {
+  padding: 100px 0;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.custom-card {
+  border: none;
+  transition: transform 0.3s;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.subscribe-section {
+  background-color: #fff;
+  padding: 80px 0;
+}
+.footer {
+  background-color: #198754;
+  color: white;
+  padding: 30px 0;
+}
+.hero-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* About Section Style */
+.team-card {
+  border: none;
+  transition: transform 0.3s;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.mission-section {
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  padding: 40px;
+  margin: 40px 0;
+}
+.hero-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.team-image {
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Subscribe Section Styles */
+.subscribe-section {
+  background-color: rgb(237, 237, 237);
+  padding: 80px 0;
+}
+
+.subscribe-form {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-form input {
+  border-right: none;
+}
+
+.subscribe-form input:focus {
+  box-shadow: none;
+  border-color: #198754;
+}
+
+.subscribe-form .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* Contact Section Styles */
+.contact-section {
+  background-color: #f8f9fa;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #198754;
+  box-shadow: none;
+}
+
+.contact-info h5 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Common Section Styles */
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.rounded-3 {
+  border-radius: 0.5rem;
+}
+
+/* Update existing footer style */
+.footer {
+  background-color: #198754;
+  color: white;
+  padding: 30px 0;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* About page specific styles */
+.about-hero {
+  padding-top: 120px;
+  padding-bottom: 80px;
+  background-color: rgba(237, 237, 237);
+}
+
+.mission-section {
+  background: linear-gradient(45deg, #ffffff, #f8f9fa);
+  border-radius: 15px;
+  padding: 60px 40px;
+  margin: 40px 0;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+.team-section {
+  padding: 80px 0;
+}
+
+.team-card {
+  border: none;
+  transition: transform 0.3s ease;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.team-image {
+  height: 300px;
+  object-fit: cover;
+}
+
+.social-links a {
+  color: #198754;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #146c43;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header-text {
+    font-size: 2.5rem;
+  }
+  .header-text-small {
+    font-size: 0.8rem;
+  }
+  .hero-image {
+    height: 250px;
+  }
+  .team-image {
+    height: 200px;
+  }
+  .about-hero,
+  .subscribe-section,
+  .team-section {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .mission-section {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-text {
+    font-size: 1.8rem;
+  }
+  .subscribe-form .input-group {
+    flex-direction: column;
+  }
+  .subscribe-form input,
+  .subscribe-form .btn {
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 10px;
+  }
+  .team-image {
+    height: 150px;
+  }
+  .hero-image {
+    height: 200px;
+  }
+}
+
+/* Ensure hero images and other content scale properly */
+.hero-image,
+.header-image,
+.team-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.custom-card,
+.team-card {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Navbar adjustments for better display */
+.navbar {
+  padding: 0.5rem 1rem;
+}
