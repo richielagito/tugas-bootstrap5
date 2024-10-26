@@ -358,15 +358,6 @@ nav.navbar {
   }
 }
 
-/* Ensure hero images and other content scale properly */
-.hero-image,
-.header-image,
-.team-image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
 .custom-card,
 .team-card {
   width: 100%;
